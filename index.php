@@ -551,8 +551,8 @@
                 <svg viewBox="0 0 500.00001 500.00001" version="1.1">
 </svg>
         <li>
-            <span class="about us">
-                <a href="aboutus.php">About Us</a> <!-- Lidhja për About Us -->
+            <span class="contact us">
+                <a href="contactus.php">Contact Us</a> <!-- Lidhja për Contact Us -->
             </span>
         </li>
     </ul>
