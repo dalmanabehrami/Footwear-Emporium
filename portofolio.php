@@ -28,16 +28,13 @@ class AboutPage {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
           </head>
           <body>
-
+   
             <div class = "about-wrapper">
               <div class = "about-left">
                 <div class = "about-left-content">
                   <div>
-                    <div class = "shadow">
-                      <div class = "london.jpg">
-                        <img src = "<?php echo $this->image; ?>" alt = "London">
-                      </div>
-                    </div>
+                    
+
 
                     <h2><?php echo $this->name; ?></h2>
                     <h3><?php echo $this->position; ?></h3>
@@ -54,10 +51,6 @@ class AboutPage {
               <div class = "about-right">
                 <h1>hi<span>!</span></h1>
                 <h2><?php echo $this->title; ?></h2>
-                <div class = "about-btns">
-                  <button type = "button" class = "btn btn-pink">products</button>
-                  <button type = "button" class = "btn btn-white">products details</button>
-                </div>
 
                 <div class = "about-para">
                 At Footwear Emporium, we take pride in presenting the exclusive Alex Arigato Collection, a pinnacle of contemporary footwear design and craftsmanship. Step into a world where style meets substance, and every pair tells a story of elegance, innovation, and unparalleled comfort.
