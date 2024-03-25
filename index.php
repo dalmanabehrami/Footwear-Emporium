@@ -554,8 +554,8 @@
             <span class="contact us">
                 <a href="contactus.php">Contact Us</a> <!-- Lidhja për Contact Us -->
             </span>
-            <span class="portofolio">
-                <a href="portofolio.php">Portofolio</a> <!-- Lidhja për Contact Us -->
+            <span class="about us">
+                <a href="aboutus.php">About Us</a> <!-- Lidhja për Contact Us -->
             </span>
         </li>
     </ul>

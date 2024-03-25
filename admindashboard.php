@@ -299,13 +299,9 @@
 
             <?php
 
-    }
-
-
 
     private function renderDropdownItems()
 
-}
 
         <div class="dropdown-content">
 

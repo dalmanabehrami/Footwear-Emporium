@@ -1,3 +1,40 @@
+<?php
+include 'dbConnect.php';
+
+// Krijo objektin e klasës dbConnect
+$dbConnection = new dbConnect();
+$conn = $dbConnection->connectDB(); // Lidhu me bazën e të dhënave duke përdorur metodën connectDB()
+
+// Kontrollo nëse forma është dërguar
+if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    // Përgatitni dhe ekzekutoni query-in për të shtuar të dhënat në bazën e të dhënave
+    $sql = "INSERT INTO contact_us (name, email, message) VALUES (:name, :email, :message)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':name', $name);
+    $stmt->bindParam(':email', $email);
+    $stmt->bindParam(':message', $message);
+
+    if ($stmt->execute()) {
+        echo "Të dhënat u ruajtën me sukses.";
+    } else {
+        echo "Gabim gjatë ruajtjes së të dhënave: " . $stmt->errorInfo()[2];
+    }
+}
+
+// Mbylli lidhjen me bazën e të dhënave
+$conn = null;
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
