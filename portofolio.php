@@ -1,5 +1,7 @@
 <?php
 
+require_once 'config.php'-
+
 class AboutPage {
     private $name;
     private $title;
@@ -33,9 +35,6 @@ class AboutPage {
               <div class = "about-left">
                 <div class = "about-left-content">
                   <div>
-                    
-
-
                     <h2><?php echo $this->name; ?></h2>
                     <h3><?php echo $this->position; ?></h3>
                   </div>

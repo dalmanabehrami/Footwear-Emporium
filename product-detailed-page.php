@@ -314,6 +314,21 @@
                 </li>
               </ul>
             </nav>
+            <nav class="nav-right sidebar-item">
+              <ul>
+            <a href="#" class="search-icon">
+                <svg viewBox="0 0 500.00001 500.00001" version="1.1">
+</svg>
+        <li>
+            <span class="contact us">
+                <a href="contactus.php">Contact Us</a> <!-- Lidhja për Contact Us -->
+            </span>
+            <span class="portofolio">
+                <a href="portofolio.php">Portofolio</a> <!-- Lidhja për Contact Us -->
+            </span>
+        </li>
+    </ul>
+</nav>
             <div class="back-to-links sidebar-item">
               <a href="#">Back to Catalogue</a>
             </div>

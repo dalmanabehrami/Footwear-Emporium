@@ -539,7 +539,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="login-register.php" class="user-icon" id="userIcon">
+                  <a href="login_form.php" class="user-icon" id="userIcon">
                     <img src="icons/user.png" alt="user" />
                   </a>
                 </li>
